@@ -1,3 +1,10 @@
+# Importing Reuqired Modules
+import numpy as np
+import math
+
+state_dim = 2
+n_actions = 27
+
 class environment():
     def __init__(self):
       self.states_dim = 2
